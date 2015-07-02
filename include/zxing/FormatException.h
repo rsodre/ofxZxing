@@ -1,7 +1,8 @@
-#ifndef __EDGEDETECTOR_H__
-#define __EDGEDETECTOR_H__
+#ifndef __FORMAT_EXCEPTION_H__
+#define __FORMAT_EXCEPTION_H__
+
 /*
- *  EdgeDetector.h
+ *  FormatException.h
  *  zxing
  *
  *  Copyright 2010 ZXing authors All rights reserved.
@@ -19,20 +20,18 @@
  * limitations under the License.
  */
 
-
-
-#include <vector>
-#include <zxing/common/BitMatrix.h>
-#include <zxing/common/Point.h>
+#include <zxing/ReaderException.h>
 
 namespace zxing {
-namespace EdgeDetector {
 
-void findEdgePoints(std::vector<Point>& points, const BitMatrix& image, Point start, Point end, bool invert, int skip, float deviation);
-Line findLine(const BitMatrix& image, Line estimate, bool invert, int deviation, float threshold, int skip);
+class FormatException : public ReaderException {
+public:
+  FormatException();
+  FormatException(const char *msg);
+  ~FormatException() throw();
 
-Point intersection(Line a, Line b);
+  static FormatException const& getFormatInstance();
+};
 
 }
-}
-#endif /* EDGEDETECTOR_H_ */
+#endif // __FORMAT_EXCEPTION_H__
