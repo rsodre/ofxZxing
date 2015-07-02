@@ -1,15 +1,1 @@
-This repository contains a wrapper for interfacing openFrameworks to the partial C++ port of ZXing. It allows realtime QR Code detection and decoding.
-
-ofxZxing runs against the latest version of openFrameworks, available on GitHub at https://github.com/openframeworks/openFrameworks/
-
-ZXing ("Zebra Crossing") is included as a static i386 library in the repository. To compile from source, check out from the ZXing project at https://code.google.com/p/zxing/ The included library was compiled with NO_ICONV defined.
-
-If you want to make a project using ofxZxing from scratch, make sure to add the ofxZxing/include folder to your header search path.
-
-IPHONE specific instructions - 
-
-When building the iPhone version you'll need either the ios (deployment) version or the sim (simulator) version. be sure to include only the library version that you're targeting. Also, you'll need to add
-
-#define OF_IPHONE
-
-in your application.h file.
+[kylemcdonald's ofxZxing](https://github.com/kylemcdonald/ofxZxing) only works on OSX and iOS, since those are the platforms for which he includes ZXing as a static library. I couldn't find the source code for whichever version of ZXing he used, so I modified the addon to use the [lastest C++ version](https://github.com/glassechidna/zxing-cpp). Since there are a couple of minor diferences between this one and the one Kyle used, I had to change the addon source files a bit (mainly changing pointer types to LLVM's ArrayRef).
