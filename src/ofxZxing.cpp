@@ -33,8 +33,8 @@ Result decode(ofPixels& pixels, bool adaptive = true) {
 		
 		string text = result->getText()->getText();
 		vector<ofVec2f> points;
-		vector< Ref<ResultPoint> > resultPoints = result->getResultPoints();
-		for(int i = 0; i < resultPoints.size(); i++) {
+        ArrayRef< Ref<ResultPoint> > resultPoints = result->getResultPoints();
+        for(int i = 0; i < resultPoints->size(); i++) {
 			Ref<ResultPoint> cur = resultPoints[i];
 			points.push_back(ofVec2f(cur->getX(), cur->getY()));
 		}
