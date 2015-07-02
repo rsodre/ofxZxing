@@ -20,8 +20,8 @@ public:
 
   int getWidth() const;
   int getHeight() const;
-  unsigned char* getRow(int y, unsigned char* row);
-  unsigned char* getMatrix();
+  ArrayRef<char> getRow(int y, ArrayRef<char> row) const;
+  ArrayRef<char> getMatrix() const;
   bool isRotateSupported() const;
   Ref<LuminanceSource> rotateCounterClockwise();
 };

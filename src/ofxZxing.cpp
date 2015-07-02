@@ -27,7 +27,7 @@ Result decode(ofPixels& pixels, bool adaptive = true) {
     Ref<BinaryBitmap> image(new BinaryBitmap(binarizer));
 	QRCodeReader reader;
 		DecodeHints hints;
-		hints.addFormat(BarcodeFormat_QR_CODE);
+		hints.addFormat(BarcodeFormat::QR_CODE);
 		hints.setTryHarder(true);
 		Ref<zxing::Result> result(reader.decode(image, hints));
 		
