@@ -72,3 +72,7 @@ linux:
 	
 linuxarmv7l:
 	ADDON_LIBS =
+
+linuxarmv6l:
+	ADDON_LIBS =
+	ADDON_LIBS += libs/zxing/armv6/libzxing.a
