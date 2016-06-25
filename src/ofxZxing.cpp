@@ -13,7 +13,7 @@ using namespace std;
 using namespace zxing;
 using namespace zxing::qrcode;
 
-Result decode(ofPixels& pixels, bool adaptive = true) {
+Result decode(ofPixels& pixels, bool adaptive) {
   try {
     Ref<ofPixelsBitmapSource> source(new ofPixelsBitmapSource(pixels));
     
