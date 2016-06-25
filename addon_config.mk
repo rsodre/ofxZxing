@@ -27,9 +27,8 @@ common:
 	# include search paths, this will be usually parsed from the file system
 	# but if the addon or addon libraries need special search paths they can be
 	# specified here separated by spaces or one per line using +=
-	ADDON_INCLUDES = 
-	ADDON_INCLUDES += src/
-	ADDON_INCLUDES += include/
+	ADDON_INCLUDES = src/
+	ADDON_INCLUDES += libs/zxing/include
 	
 	# any special flag that should be passed to the compiler when using this
 	# addon
@@ -63,16 +62,13 @@ common:
 linux64:
 	# binary libraries, these will be usually parsed from the file system but some 
 	# libraries need to passed to the linker in a specific order 
-	ADDON_LIBS =
-	ADDON_LIBS += libs/zxing/linux/libzxing.a
+	ADDON_LIBS = libs/zxing/linux/libzxing.a
 	
 linux:
-	ADDON_LIBS =
-	ADDON_LIBS += libs/zxing/linux/libzxing.a	
+	ADDON_LIBS = libs/zxing/linux/libzxing.a	
 	
 linuxarmv7l:
 	ADDON_LIBS =
 
 linuxarmv6l:
-	ADDON_LIBS =
-	ADDON_LIBS += libs/zxing/armv6/libzxing.a
+	ADDON_LIBS = libs/zxing/armv6/libzxing.a
