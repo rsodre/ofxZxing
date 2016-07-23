@@ -59,9 +59,12 @@ common:
 	# a specific platform
 	# ADDON_LIBS_EXCLUDE =
 	
-linux64:
+vs:
 	# binary libraries, these will be usually parsed from the file system but some 
 	# libraries need to passed to the linker in a specific order 
+	ADDON_LIBS = libs/zxing/vs/libzxing.lib
+
+linux64: 
 	ADDON_LIBS = libs/zxing/linux/libzxing.a
 	
 linux:
