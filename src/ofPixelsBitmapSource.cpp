@@ -5,6 +5,7 @@ namespace zxing {
 ofPixelsBitmapSource::ofPixelsBitmapSource(ofPixels& pixels) : LuminanceSource(pixels.getWidth(), pixels.getHeight()), image_(pixels) {
   width = pixels.getWidth();
   height = pixels.getHeight();
+  channels = pixels.getNumChannels();
 	pixel_cache = pixels.getPixels();
 }
 
@@ -25,11 +26,12 @@ ArrayRef<char> ofPixelsBitmapSource::getRow(int y, ArrayRef<char> row) const {
     row = new Array<char>(width);
   }
   for (int x = 0; x < width; x++) {
-    const unsigned char* p = &pixel_cache[3 * (y * width + x)];
+    const unsigned char* p = &pixel_cache[channels * (y * width + x)];
     row[x] = (unsigned char)((
-				306 * (int)(*p++) +
-				601 * (int)(*p++) +
-				117 * (int)(*p++) + 0x200) >> 10);
+				306 * (int)(*(p+0)) +
+				601 * (int)(*(p+1)) +
+				117 * (int)(*(p+2)) + 0x200) >> 10);
+	p+=channels;
   }
   return row;
 
@@ -44,10 +46,11 @@ ArrayRef<char> ofPixelsBitmapSource::getMatrix() const {
   for (int y = 0; y < height; y++) {
     for (int x = 0; x < width; x++) {
 			matrix[idx] = (unsigned char)((
-				306 * (int)(*p++) +
-				601 * (int)(*p++) +
-				117 * (int)(*p++) + 0x200) >> 10);
-      idx++;
+				306 * (int)(*(p+0)) +
+				601 * (int)(*(p+1)) +
+				117 * (int)(*(p+2)) + 0x200) >> 10);
+		p+=channels;
+		idx++;
     }
   }
   return matrix;

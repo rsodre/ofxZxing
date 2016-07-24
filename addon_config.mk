@@ -62,16 +62,16 @@ common:
 vs:
 	# binary libraries, these will be usually parsed from the file system but some 
 	# libraries need to passed to the linker in a specific order 
-	ADDON_LIBS = libs/zxing/vs/libzxing.lib
+	ADDON_LIBS = libs/zxing/lib/vs/libzxing.lib
 
 linux64: 
-	ADDON_LIBS = libs/zxing/linux/libzxing.a
+	ADDON_LIBS = libs/zxing/lib/linux/libzxing.a
 	
 linux:
-	ADDON_LIBS = libs/zxing/linux/libzxing.a	
+	ADDON_LIBS = libs/zxing/lib/linux/libzxing.a	
 	
 linuxarmv7l:
 	ADDON_LIBS =
 
 linuxarmv6l:
-	ADDON_LIBS = libs/zxing/armv6/libzxing.a
+	ADDON_LIBS = libs/zxing/lib/armv6/libzxing.a

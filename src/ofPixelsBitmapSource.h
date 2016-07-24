@@ -11,6 +11,7 @@ private:
   ofPixels& image_;
   int width;
   int height;
+  int channels;
 	const unsigned char* pixel_cache;
 
 public:
