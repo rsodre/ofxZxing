@@ -1,15 +1,20 @@
 #include "testApp.h"
 
+namespace ofxZxing {
+	void drawTextBox(string text, ofVec2f position, ofColor fgColor = ofColor::white, ofColor bgColor = ofColor::black);
+}
+using namespace ofxZxing;
+
 void testApp::setup() {
 	ofSetVerticalSync(true);
-	cam.initGrabber(640, 480);
+	cam.initGrabber(1920, 1080);
 	logo.loadImage("of.png");
 }
 
 void testApp::update() {
 	cam.update();
 	if(cam.isFrameNew()) {
-		ofxZxing::Result curResult = ofxZxing::decode(cam.getPixelsRef(), true);
+		ofxZxing::Result curResult = ofxZxing::decode(cam.getPixels(), true);
 		float curTime = ofGetElapsedTimef();
 		if(curResult.getFound()) { // only update if we found something, avoid flickering
 			result = curResult;
@@ -36,6 +41,8 @@ void testApp::draw() {
 		logo.draw(-logo.getWidth() / 2, -logo.getHeight() / 2);
 		ofPopMatrix();
 		
+//		drawTextBox(result.getText(), ofVec2f(10,10));
+
 		result.draw();		
 	} else {
 		cam.draw(0, 0);
