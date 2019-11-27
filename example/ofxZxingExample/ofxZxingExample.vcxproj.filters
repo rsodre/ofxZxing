@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxZxing\src\ofPixelsBitmapSource.cpp">
+      <Filter>addons\ofxZxing\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxZxing\src\ofxZxing.cpp">
+      <Filter>addons\ofxZxing\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxZxing\src\Result.cpp">
+      <Filter>addons\ofxZxing\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing">
+      <UniqueIdentifier>{89538619-5CCE-B1FC-11F8-D594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\src">
+      <UniqueIdentifier>{01922E1B-0070-1565-E65E-0A1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs">
+      <UniqueIdentifier>{BAAA530B-92A7-A4E7-3B31-F4DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing">
+      <UniqueIdentifier>{EAA8D8EB-DEF7-3B46-23C5-21B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include">
+      <UniqueIdentifier>{DB5BA5C0-B366-894D-6B18-21F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing">
+      <UniqueIdentifier>{3C7F7A2D-32E5-C839-F806-3E72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\aztec">
+      <UniqueIdentifier>{B66397C2-F08A-50AD-B3EC-C489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\aztec\decoder">
+      <UniqueIdentifier>{C110E891-401F-36A5-69CF-4392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\aztec\detector">
+      <UniqueIdentifier>{C4AACEA5-3979-AAAC-1D81-79BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\common">
+      <UniqueIdentifier>{8B7DB502-9895-562D-F3A9-62F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\common\detector">
+      <UniqueIdentifier>{B2D51DD6-E9B4-3989-45A7-1235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\common\reedsolomon">
+      <UniqueIdentifier>{7B445A08-F322-D1A9-4E6E-C6FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\datamatrix">
+      <UniqueIdentifier>{D27FD54C-A7F5-5829-F7A2-D76B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\datamatrix\decoder">
+      <UniqueIdentifier>{FD0F6A54-878E-CCE7-1850-ACA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\datamatrix\detector">
+      <UniqueIdentifier>{10CD65A4-ECD8-0575-C076-AA94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\multi">
+      <UniqueIdentifier>{2DC9351E-17B7-7E2C-71DD-C445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\multi\qrcode">
+      <UniqueIdentifier>{DFD26D48-B851-AC7E-1377-B1B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\multi\qrcode\detector">
+      <UniqueIdentifier>{F52AA59D-CABD-8A0D-7E3A-AB3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\oned">
+      <UniqueIdentifier>{C654CDAE-76BB-874C-873D-C876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\pdf417">
+      <UniqueIdentifier>{B731D43E-9E51-29E3-0F14-C4F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder">
+      <UniqueIdentifier>{199803AC-CC51-7905-4381-B1C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder\ec">
+      <UniqueIdentifier>{0655A196-8DFF-6CD1-04B5-C7DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\pdf417\detector">
+      <UniqueIdentifier>{A115E532-3353-BDC4-A3D0-8E03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\qrcode">
+      <UniqueIdentifier>{916DF8D0-B0DD-12C2-A2A8-EE30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder">
+      <UniqueIdentifier>{CF9389F8-8956-4DC7-A80A-9127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector">
+      <UniqueIdentifier>{E4C63197-ABCB-076A-8204-3AF6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\src\ofPixelsBitmapSource.h">
+      <Filter>addons\ofxZxing\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\src\ofxZxing.h">
+      <Filter>addons\ofxZxing\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\src\Result.h">
+      <Filter>addons\ofxZxing\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\aztec\AztecDetectorResult.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\aztec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\aztec\AztecReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\aztec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\aztec\decoder\Decoder.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\aztec\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\aztec\detector\Detector.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\aztec\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\BarcodeFormat.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\Binarizer.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\BinaryBitmap.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\ChecksumException.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\Array.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\BitArray.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\BitMatrix.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\BitSource.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\CharacterSetECI.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\Counted.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\DecoderResult.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\detector\JavaMath.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\detector\MathUtils.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\detector\MonochromeRectangleDetector.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\detector\WhiteRectangleDetector.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\DetectorResult.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\GlobalHistogramBinarizer.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\GreyscaleLuminanceSource.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\GreyscaleRotatedLuminanceSource.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\GridSampler.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\HybridBinarizer.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\IllegalArgumentException.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\PerspectiveTransform.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\Point.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\reedsolomon\GenericGF.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common\reedsolomon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\reedsolomon\GenericGFPoly.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common\reedsolomon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\reedsolomon\ReedSolomonDecoder.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common\reedsolomon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\reedsolomon\ReedSolomonException.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common\reedsolomon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\Str.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\common\StringUtils.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\datamatrix\DataMatrixReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\datamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\datamatrix\decoder\BitMatrixParser.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\datamatrix\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\datamatrix\decoder\DataBlock.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\datamatrix\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\datamatrix\decoder\DecodedBitStreamParser.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\datamatrix\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\datamatrix\decoder\Decoder.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\datamatrix\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\datamatrix\detector\CornerPoint.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\datamatrix\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\datamatrix\detector\Detector.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\datamatrix\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\datamatrix\detector\DetectorException.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\datamatrix\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\datamatrix\Version.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\datamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\DecodeHints.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\Exception.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\FormatException.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\IllegalStateException.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\InvertedLuminanceSource.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\LuminanceSource.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\multi\ByQuadrantReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\multi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\multi\GenericMultipleBarcodeReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\multi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\multi\MultipleBarcodeReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\multi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\multi\qrcode\detector\MultiDetector.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\multi\qrcode\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\multi\qrcode\detector\MultiFinderPatternFinder.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\multi\qrcode\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\multi\qrcode\QRCodeMultiReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\multi\qrcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\MultiFormatReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\NotFoundException.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\CodaBarReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\Code128Reader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\Code39Reader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\Code93Reader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\EAN13Reader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\EAN8Reader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\ITFReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\MultiFormatOneDReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\MultiFormatUPCEANReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\OneDReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\OneDResultPoint.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\UPCAReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\UPCEANReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\oned\UPCEReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\oned</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder\BitMatrixParser.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder\DecodedBitStreamParser.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder\Decoder.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder\ec\ErrorCorrection.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder\ec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder\ec\ModulusGF.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder\ec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder\ec\ModulusPoly.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\pdf417\decoder\ec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\pdf417\detector\Detector.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\pdf417\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\pdf417\detector\LinesSampler.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\pdf417\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\pdf417\PDF417Reader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\pdf417</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder\BitMatrixParser.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder\DataBlock.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder\DataMask.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder\DecodedBitStreamParser.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder\Decoder.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder\Mode.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector\AlignmentPattern.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector\AlignmentPatternFinder.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector\Detector.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector\FinderPattern.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector\FinderPatternFinder.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector\FinderPatternInfo.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\ErrorCorrectionLevel.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\FormatInformation.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\QRCodeReader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\qrcode\Version.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing\qrcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\Reader.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\ReaderException.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\Result.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\ResultPoint.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\ResultPointCallback.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxZxing\libs\zxing\include\zxing\ZXing.h">
+      <Filter>addons\ofxZxing\libs\zxing\include\zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>

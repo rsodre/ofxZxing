@@ -7,6 +7,8 @@ using namespace ofxZxing;
 
 void testApp::setup() {
 	ofSetVerticalSync(true);
+	cam.listDevices();
+	//cam.setDeviceID(1);
 	cam.initGrabber(1920, 1080);
 	logo.loadImage("of.png");
 	player.load("teste.avi");

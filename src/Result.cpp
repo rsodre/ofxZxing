@@ -37,7 +37,7 @@ void Result::drawTextBox(string text, ofVec2f position, ofColor fgColor, ofColor
 
 void Result::draw() {
 	ofPushMatrix();
-	ofScale(screenScale);
+	ofScale(screenScale, screenScale);
 	
 	ofPushStyle();
 	
