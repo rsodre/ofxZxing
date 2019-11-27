@@ -20,6 +20,10 @@ public:
 	float getScreenSize() const;
 	float getRotation(ofVec2f relativeTo = ofVec2f(0, -1)) const;
 	
+	void setScreenScale(float scale) {
+		screenScale = scale;
+	}
+	
 	/*
 	// these would be nice:
 	ofVec3f getRealPosition(float physicalSize) const;
@@ -27,12 +31,15 @@ public:
 	*/
 	
 protected:
+	void drawTextBox(string text, ofVec2f position, ofColor fgColor = ofColor::white, ofColor bgColor = ofColor::red);
+
 	bool found;
 	string text;
 	vector<ofVec2f> points;
 	ofVec2f center;
 	ofVec2f screenNormal;
 	float screenSize;
+	float screenScale;
 };
 
 }

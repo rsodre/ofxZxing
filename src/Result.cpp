@@ -7,7 +7,7 @@ Result::Result() :
 }
 
 Result::Result(string text, vector<ofVec2f> points) :
-	found(true), text(text), points(points) {	
+	found(true), text(text), points(points), screenScale(1.0f) {
 	if(points.size() > 1) {
 		screenNormal = points[1] - points[0];
 	}
@@ -17,16 +17,17 @@ Result::Result(string text, vector<ofVec2f> points) :
 	screenSize = screenNormal.length();
 }
 
-void drawTextBox(string text, ofVec2f position, ofColor fgColor = ofColor::white, ofColor bgColor = ofColor::black) {
+void Result::drawTextBox(string text, ofVec2f position, ofColor fgColor, ofColor bgColor) {
 	ofPushStyle();
 	
-	int border = 4;
+	int border = 4 / screenScale;
+	ofFill();
 	ofSetColor(bgColor);
 	ofRect(
 		(int) position.x - border,
-		(int) position.y - 4 - border,
-		text.length() * 8 + (border * 2),
-		8 + (border * 2));
+		(int) position.y - (4 / screenScale) - (border * 2),
+		text.length() * (8 / screenScale) + (border * 2),
+		(8 / screenScale) + (border * 2));
 		
 	ofSetColor(fgColor);
 	ofDrawBitmapString(text, position);
@@ -35,6 +36,9 @@ void drawTextBox(string text, ofVec2f position, ofColor fgColor = ofColor::white
 }
 
 void Result::draw() {
+	ofPushMatrix();
+	ofScale(screenScale);
+	
 	ofPushStyle();
 	
 	ofSetColor(ofColor::red);
@@ -73,6 +77,8 @@ void Result::draw() {
 	drawTextBox(text, center);
 	
 	ofPopStyle();
+	
+	ofPopMatrix();
 }
 
 bool Result::getFound() const {
