@@ -21,14 +21,17 @@ void Result::drawTextBox(string text, ofVec2f position, ofColor fgColor, ofColor
 	ofPushStyle();
 	
 	int border = 4 / screenScale;
+	int x = (int) position.x - border;
+	int y = (int) position.y - (4 / screenScale) - (border * 2);
+	int w = text.length() * (8 / screenScale) + (border * 2);
+	int h = (8 / screenScale) + (border * 2);
+	if( screenFlipped )
+		x -= w - border;
+
 	ofFill();
 	ofSetColor(bgColor);
-	ofRect(
-		(int) position.x - border,
-		(int) position.y - (4 / screenScale) - (border * 2),
-		text.length() * (8 / screenScale) + (border * 2),
-		(8 / screenScale) + (border * 2));
-		
+	ofRect( x, y, w, h );
+	
 	ofSetColor(fgColor);
 	ofDrawBitmapString(text, position);
 	

@@ -20,8 +20,9 @@ public:
 	float getScreenSize() const;
 	float getRotation(ofVec2f relativeTo = ofVec2f(0, -1)) const;
 	
-	void setScreenScale(float scale) {
+	void setScreenScale(float scale, bool flipped) {
 		screenScale = scale;
+		screenFlipped = flipped;
 	}
 	
 	/*
@@ -39,7 +40,8 @@ protected:
 	ofVec2f center;
 	ofVec2f screenNormal;
 	float screenSize;
-	float screenScale;
+	float screenScale = 1.0f;
+	bool screenFlipped = false;
 };
 
 }
