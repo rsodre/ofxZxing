@@ -9,7 +9,7 @@ public:
 	Result();
 	Result(string text, vector<ofVec2f> points);
 
-	void draw();
+	void draw(ofColor fgColor = ofColor::white, ofColor bgColor = ofColor::red);
 	
 	bool getFound() const;
 	string getText() const;

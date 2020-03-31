@@ -38,7 +38,7 @@ void Result::drawTextBox(string text, ofVec2f position, ofColor fgColor, ofColor
 	ofPopStyle();
 }
 
-void Result::draw() {
+void Result::draw(ofColor fgColor, ofColor bgColor) {
 	ofPushMatrix();
 	ofScale(screenScale, screenScale);
 	
@@ -74,10 +74,10 @@ void Result::draw() {
 	
 #endif	
 	for(int i = 0; i < points.size(); i++) {
-		drawTextBox(ofToString(i), points[i]);
+		drawTextBox(ofToString(i), points[i], fgColor, bgColor);
 	}
 	
-	drawTextBox(text, center);
+	drawTextBox(text, center, fgColor, bgColor);
 	
 	ofPopStyle();
 	
